@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="StoreModule">
+<head>
+    <meta charset="utf-8">
+    <title>Mini-Store Management System </title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/css/plugins.css" rel="stylesheet">
+    <link href="style/css/prettify.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="style/css/color/blue.css" rel="stylesheet">
+
+</head>
+
+<body style="-ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8); /* Safari */
+    transform: scale(0.8, 0.8);">
+    <div class="container" style="margin-top: -10%">
+        <div class="page-header">
+            <h1>Mini-Store Management System <small>#Van Life</small></h1>
+        </div>
+        <div ng-include="'partials/_nav.html'"></div>
+        <div ng-view = ''></div>
+    </div>
+
+
+
+    <script src="jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="angular/angular.js" charset="utf-8"></script>
+    <script src="angular-route/angular-route.js" charset="utf-8"></script>
+    <script src="moment/moment.js" charset="utf-8"></script>
+    <script src="angular-moment/angular-moment.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <script src="factories/storeFactory.js" charset="utf-8"></script>
+    <script src="controllers/idxCtrl.js" charset="utf-8"></script>
+    <script src="controllers/customerCtrl.js" charset="utf-8"></script>
+    <script src="controllers/productCtrl.js" charset="utf-8"></script>
+    <script src="controllers/orderCtrl.js" charset="utf-8"></script>
+    <script src="style/js/classie.js"></script>
+    <script src="style/js/plugins.js"></script>
+    <script src="style/js/scripts.js"></script>
+    <script src="style/js/jquery.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+    <script src="style/js/jquery.themepunch.tools.min.js"></script>
+    <script>
+        $.backstretch(["style/images/art/background2.jpg"]);
+    </script>
+</body>
+
+</html>

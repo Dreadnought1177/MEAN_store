@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+.product-panel {
+  height: 175px;
+  overflow: scroll;
+}
+
+.panel-body img {
+  width: 100%;
+}
+
+table.customer {
+  margin-top: 40px;
+}
+
+input.filter {
+  margin-top: 40px;
+}
+
+.container{
+  width: auto;
+  height: auto;
+}
+
+.nav-tabs{
+
+}
+
+.ng-scope{
+  padding-top: 20px;
+
+}
+
+.row{
+  padding-left: 10px;
+}
+.badge.ng-binding{
+
+}
